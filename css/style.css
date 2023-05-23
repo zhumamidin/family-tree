@@ -1,0 +1,264 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link {
+  padding: 21px 32px;
+  background: #672020;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), #fff),
+    url(../images/logo-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 65%;
+  min-height: 600px;
+  text-align: center;
+}
+
+.logo {
+  padding: 114px 0;
+}
+
+.nav {
+  background-color: #560808;
+  min-height: 90px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-list {
+  padding: 30px 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 0 20px;
+  border-right: 3px dashed #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.about {
+  min-height: 1032px;
+}
+
+.about-title {
+  padding: 130px 0 112px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-list {
+  list-style: none;
+  display: flex;
+  gap: 99px;
+  text-align: center;
+}
+
+.about-text {
+  padding-top: 41px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.about-link:hover {
+  padding: 21px 32px;
+  background: #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #672020;
+  font-size: 36px;
+  text-align: center;
+  transition: 0.2s ease;
+  border: 2px solid #672020;
+}
+
+.second-text {
+  margin-bottom: 100px;
+}
+
+.info {
+  min-height: 310px;
+  background-color: #672020;
+  text-align: center;
+}
+
+.info-text {
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 38px;
+  padding: 90px 0;
+}
+
+.parents {
+  min-height: 900px;
+  text-align: center;
+}
+
+.parents-inner {
+  max-width: 84%;
+  margin: 0 auto;
+  margin-top: 136px;
+  border-radius: 40px;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), #fff),
+    url(../images/background.jpg);
+  background-position: center 20%;
+}
+
+.parents-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 132px 0 90px;
+}
+
+.parents-img {
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid #672020;
+}
+
+.parents-title {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  padding: 23px 29px;
+  background: #ffffff;
+  border: 3px solid #672020;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.parents-links {
+  margin-bottom: 90px;
+}
+
+.child {
+  min-height: 940px;
+  text-align: center;
+}
+
+.child-title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  margin-bottom: 110px;
+}
+
+.child-list {
+  list-style: none;
+}
+
+.child-slide {
+  background: #672020;
+  max-width: 84%;
+  margin: 0 auto;
+  min-height: 680px;
+  border-radius: 40px;
+}
+
+.child-number {
+  font-size: 80px;
+  line-height: 93px;
+  font-weight: 700;
+  text-align: right;
+  color: #fff;
+  padding: 40px 40px 0 0;
+}
+
+.slide-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slide-img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.slide-titles {
+  max-width: 350px;
+}
+
+.slide-title {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.slide-btn {
+  color: #560808;
+  background: #fff;
+}
+
+.swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  background-color: #672020;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  color: #672020;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #672020;
+  min-height: 110px;
+  margin-top: 110px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 37px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+}
