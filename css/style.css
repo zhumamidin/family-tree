@@ -324,3 +324,23 @@ body {
   line-height: 28px;
   font-weight: 400;
 }
+
+.grandchildren-item {
+  padding: 20px 20px;
+  background-color: #672020;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.grandchildren-title {
+  padding-left: 50px;
+  font-size: 28px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.grandchildren-btn {
+  border: 20px solid #672020;
+  border-top: 20px solid #fff;
+}
