@@ -7,3 +7,12 @@ const swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+const btns = document.querySelectorAll(".grandchildren-btn");
+const showItem = document.querySelectorAll(".grandchildren-item");
+
+btns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.parentNode.classList.toggle("show");
+  });
+});

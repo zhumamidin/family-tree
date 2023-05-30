@@ -326,14 +326,16 @@ body {
 }
 
 .grandchildren-item {
-  padding: 20px 20px;
+  padding: 20px 50px;
   background-color: #672020;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   border-radius: 15px;
+  margin-bottom: 30px;
 }
 
 .grandchildren-title {
+  display: inline-block;
   padding-left: 50px;
   font-size: 28px;
   line-height: 32px;
@@ -341,6 +343,75 @@ body {
 }
 
 .grandchildren-btn {
-  border: 20px solid #672020;
-  border-top: 20px solid #fff;
+  position: absolute;
+  right: 200px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+}
+
+.grandchildren-btn.btn-open {
+  background-color: #fff;
+}
+
+.grandchildren-open {
+  max-width: 90%;
+  display: flex;
+  gap: 40px;
+  padding: 40px 20px 20px;
+  margin: 0 auto;
+  background-color: #d9d9d9;
+  border-radius: 0 0 15px 15px;
+  text-align: center;
+  display: none;
+}
+
+.grandchild-img {
+  max-width: 100%;
+  border-radius: 15px;
+  border: 5px solid #560808;
+}
+
+.grandchild-title {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.grandchild-text {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.btn-close {
+  display: none;
+}
+
+.show .btn-open {
+  display: none;
+}
+
+.show .btn-close {
+  display: block;
+}
+
+.show {
+  background-color: #d9d9d9;
+  border: 5px solid #560808;
+}
+
+.show .grandchildren-title {
+  display: none;
+}
+
+.show .grandchildren-open {
+  display: block;
+  max-width: 90%;
+  display: flex;
+  gap: 40px;
+  padding: 40px 20px 20px;
+  margin: 0 auto;
+  text-align: center;
 }
