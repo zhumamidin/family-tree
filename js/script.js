@@ -8,13 +8,13 @@ const swiper = new Swiper(".mySwiper", {
   },
 });
 
-const btns = document.querySelectorAll(".grandchildren-btn");
+// const btns = document.querySelectorAll(".grandchildren-btn");
 
-btns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    btn.parentNode.classList.toggle("active");
-  });
-});
+// btns.forEach((btn) => {
+//   btn.addEventListener("click", () => {
+//     btn.parentNode.classList.toggle("show");
+//   });
+// });
 
 const showItems = document.querySelectorAll(".grandchildren-item");
 
